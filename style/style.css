@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: auto;
+    width: 700px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-gap: 5px 0px;
+    grid-template-columns: repeat(20, 35px);
+    grid-template-rows: repeat(8, 100px);
+    justify-content: start;
+    padding: 20px 10px;
+    background-color: #e5e7d9;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.displayCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeraImagen {
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-align: start;
+    font-size: 10px;
+    color: #000;
+}
+
+.segundaImagen {
+    grid-column: 8/12;
+    grid-row: 1/3;
+}
+
+.terceraImagen {
+    grid-column: 12/17;
+    grid-row: 1/2;
+}
+
+.parrafoDerecho {
+    grid-column: 17/21;
+    grid-row: 1/2;
+    padding-left: 10px;
+}
+
+.parrafoCorto {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.parrafoCortoDos {
+    grid-column: 4/8;
+    grid-row: 2/3;
+}
+
+.cuartaImagen {
+    grid-column: 12/17;
+    grid-row: 2/3;
+}
+
+.parrafoDerechoDos {
+    grid-column: 17/21;
+    grid-row: 2/3;
+    padding-left: 10px;
+}
+
+.textoIntermedio {
+    grid-column: 1/9;
+    grid-row: 3/4;
+    padding: 10px 10px 10px 0;
+}
+
+.textoIntermedioTwo {
+    grid-column: 9/14;
+    grid-row: 3/9;
+    padding: 10px;
+}
+
+.imagenMedia {
+    grid-column: 14/21;
+    grid-row: 3/5;
+}
+
+.textoHorizontal {
+    grid-column: 1/5;
+    grid-row: 4/9;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.textoHorizontaltwo {
+    grid-column: 5/9;
+    grid-row: 4/9;
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+}
+
+.textoMedio {
+    grid-column: 14/17;
+    grid-row: 5/6;
+    padding: 10px;
+}
+
+.textomedioDos {
+    grid-column: 17/21;
+    grid-row: 5/6;
+    padding: 10px;
+}
+
+.ultimaimagen {
+    grid-column: 14/21;
+    grid-row: 6/9;
+}
